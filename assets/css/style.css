@@ -85,14 +85,14 @@ input:focus { border: 1px solid #ccc; color: #555; }
 
 /* Header */
 .ghost-featured .header { 
-	background-color: #415c71;
-	background-image: -webkit-gradient(linear, left center, right center, from(rgb(65, 92, 113)), to(rgb(6, 21, 36)));
-	background-image: -webkit-linear-gradient(left, rgb(65, 92, 113), rgb(6, 21, 36));
-	background-image: -moz-linear-gradient(left, rgb(65, 92, 113), rgb(6, 21, 36));
-	background-image: -o-linear-gradient(left, rgb(65, 92, 113), rgb(6, 21, 36));
-	background-image: -ms-linear-gradient(left, rgb(65, 92, 113), rgb(6, 21, 36));
-	background-image: linear-gradient(left, rgb(65, 92, 113), rgb(6, 21, 36));
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#415c71', EndColorStr='#061524');
+	background-color: #323232;
+	background-image: -webkit-gradient(linear, left center, right center, from(rgb(50, 50, 50)), to(rgb(38, 38, 38)));
+	background-image: -webkit-linear-gradient(left, rgb(50, 50, 50), rgb(38, 38, 38));
+	background-image: -moz-linear-gradient(left, rgb(50, 50, 50), rgb(38, 38, 38));
+	background-image: -o-linear-gradient(left, rgb(50, 50, 50), rgb(38, 38, 38));
+	background-image: -ms-linear-gradient(left, rgb(50, 50, 50), rgb(38, 38, 38));
+	background-image: linear-gradient(left, rgb(50, 50, 50), rgb(38, 38, 38));
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#323232', EndColorStr='#262626');
 	color: #fff; }
 .ghost-featured .header > div { max-width: 900px; margin: 0 auto; padding: 70px 0; display: -webkit-flex; display: flex; }
 .ghost-featured .header h1 { font-weight: 700; font-size: 3rem; line-height: 3.2rem; font-family: Montserrat, sans-serif; margin: 0 0 20px; }
@@ -102,7 +102,7 @@ input:focus { border: 1px solid #ccc; color: #555; }
 .ghost-featured .header .author-image:hover img { opacity: 0.9; }
 .ghost-featured .header .author-info { min-width: 300px; }
 .ghost-featured .header .social a { float: left; width: 24px; height: 24px; line-height: 2.4rem; margin: 0 2px 0 0; background: #fff; color: #ee7358; text-align: center; }
-.ghost-featured .header .social a:hover { background: #ffe0d9; }
+.ghost-featured .header .social a:hover { background: #ffe; }
 /**/
 
 /* Shared Post Views */
