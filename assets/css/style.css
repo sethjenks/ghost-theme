@@ -101,11 +101,11 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr=
 .ghost-featured .header h1 { font-weight: 700; font-size: 3rem; line-height: 3.2rem; font-family: Montserrat, sans-serif; margin: 0 0 20px; }
 .ghost-featured .header h1 + p { font-weight: 300; font-size: 1.8rem; line-height: 2.5rem; font-family: Lato, sans-serif; }
 .ghost-featured .header .author-image { min-width: 180px; margin-right: 5%; }
-.ghost-featured .header .author-image img { border-radius: 50%; border: 10px solid #ffeeea; }
+.ghost-featured .header .author-image img { border-radius: 50%; border: 10px solid #fff; }
 .ghost-featured .header .author-image:hover img { opacity: 0.9; }
 .ghost-featured .header .author-info { min-width: 300px; }
-.ghost-featured .header .social a { float: left; width: 24px; height: 24px; line-height: 2.4rem; margin: 0 2px 0 0; background: #fff; color: #ee7358; text-align: center; }
-.ghost-featured .header .social a:hover { background: #ffe0d9; }
+.ghost-featured .header .social a { float: left; width: 24px; height: 24px; line-height: 2.4rem; margin: 0 2px 0 0; background: #fff; color: #333; text-align: center; }
+.ghost-featured .header .social a:hover { background: #fff; }
 /**/
 
 /* Shared Post Views */
