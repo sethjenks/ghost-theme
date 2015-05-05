@@ -1,0 +1,24 @@
+{{!< default}}
+
+<div class="index clearfix">
+
+{{#foreach posts}}
+
+<article class="{{post_class}} ">
+	{{#if tags}}<span class="post-tags">{{tags}}</span>{{/if}}
+
+	<section class="post-content">
+        <h2 class="post-title"><a href="{{url}}#startReading">{{{title}}}</a></h2>
+       	<time datetime="{{date format='YYYY-MM-DD'}}">Uploaded on {{date format="DD MMM YYYY"}}</time>
+        {{content characters="10"}}
+        <a href="{{{url}}}" class="button green">Read More</a>
+    </section>
+</article>
+
+{{/foreach}}
+
+<div class="clear"></div>
+
+{{pagination}}
+
+</div>

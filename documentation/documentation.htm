@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>How To Use</title>
+<style type="text/css">
+	body { margin: 0; padding: 0; background: #eee; }
+	.page { width: 640px; margin: 50px auto; padding: 40px; background: #fff; font: 13px/20px Arial, Tahoma, sans-serif; box-shadow: 3px 3px 3px rgba(0,0,0, 0.05); color: #666; }
+	.page h1 { font-size: 30px; color: #444; line-height: normal; margin: 0 0 20px; }
+	.page h2 { font-size: 22px; color: #444; line-height: normal; margin: 20px 0; }
+	.page a { color: #3498DB; }
+	.page a:hover { color: #308BC9; text-decoration: none; }
+	.page pre { display: block; border: 1px solid #e3edf3; background: #F7FAFB; overflow: visible; overflow-y: hidden; padding: 0 0 0 4px; font-size: 13px; line-height: 20px; font-family: Inconsolata, monospace, sans-serif; white-space: pre; word-break: break-all; word-wrap: break-word; }
+	.page code { padding: 1px 5px; font-size: 13px; line-height: 20px; border: 1px solid #e3edf3; background: #F7FAFB; font-family: Inconsolata, monospace, sans-serif; white-space: pre; word-break: break-all; word-wrap: break-word; }
+</style>
+</head>
+<body>
+	<div class="page">
+	
+		<h1>Featured Documentation</h1>
+		<p>The documentation is intended to help you properly install and configure the theme. I am happy to help with any questions, so feel free to leave a comment on my profile if you need help.</p>
+
+		<h2>First things first</h2>
+		<p>Get familiar with Ghost installation and usage:</p>
+			<ul>
+				<li><a href="http://docs.ghost.org/installation/">Ghost Installation</a></li>
+				<li><a href="http://docs.ghost.org/usage/">Ghost Usage</a></li>
+			</ul>
+
+		<h2>Installation</h2>
+		<ol>
+			<li>Download the theme archive.</li>
+			<li>Navigate to <code>ghost/content/themes.</code></li>
+			<li>Paste the theme archive and unzip it.</li>
+			<li>Restart Ghost and log in to your Ghost dashboard at yourdomain.com/ghost/</li>
+			<li>Navigate to Settings &raquo; Themes and select <strong>featured</strong> from the dropdown menu.</li>
+			<li>Click Save.</li>
+		</ol>
+
+		<h2>Configuration</h2>
+		<p>Configuring Featured is extremely easy and intuitive.</p>
+
+		<h3>Add Logo/Avatar</h3>
+		<ol>
+			<li>Go to Settings &raquo; General.</li>
+			<li>Upload your image in the Blog Logo section. The image you upload here will be automatically added as logo/avatar in the blog header. </li>
+		</ol>
+
+
+		<h3>Add Name &amp; About/Bio</h3>
+		<ol>
+			<li>Go to Settings &raquo; General.</li>
+			<li>Type your name in the Blog Title input field. The name you enter here will be automatically used in the theme header as your name.</li>
+			<li>Type your preferred blog description in the Blog Description input field. The text you enter here will be automatically used as your blog info in the theme header.</li>
+		</ol>
+
+		<h3>Add Social Media</h3>
+		<ol>
+			<li>Navigate to the <code>featured/partials/social.hbs</code> file.</li>
+			<li>Replace the "#" values with your profile links for Facebook, Twitter, Google+, and Dribbble.</li>
+			<li>If you want to remove any social icon from the theme, simply delete for example <code>&lt;a href="#" target="_blank" class="icon-googleplus">&lt;/a></code> from the file.</li>
+		</ol>
+
+		<h3>Set Up "Hire Me" Section</h3>
+		<ol>
+			<li>Navigate to the <code>featured/partials/hireme.hbs</code> file.</li>
+			<li>Replace the <em>Like what I do? I can do even more awesome stuff for you!</em> text with anything you prefer.</li>
+			<li>Right below this text is the Hire Me button. When the user clicks on this button, he can send you an email. To receive the email, replace <em>youremail@ghost-featured.com</em> with your email address.</li>
+		</ol>
+
+		<h2>Important About Posts</h2>
+		<ul>
+			<li>In order for the thumbnails to show on the index of your blog properly, it is highly recommended to start each post with an image. Your first image from the post will be used as the thumbnail. The recommended image orientation for the thumbnails is a landscape format.</li>
+			<li>Posts support video, however the current theme version does not support video as thumbnails. It will be available in the coming Featured version. </li>
+		</ul>
+
+		<h2>Layered PSD Files</h2>
+		<p>The Featured PSD files are located at <code>featured/assets/psd/</code>.</p>
+
+		<h2>About Featured</h2>
+		<p>Featured v1.0 <br/> Released Dec 8, 2013</p>
+
+		<h2>Credits</h2>
+		<ul>
+			<li><a href="http://uifaces.com/" target="_blank">uiFaces</a></li>
+			<li><a href="http://necolas.github.io/normalize.css/" target="_blank">Normalize.css</a></li>
+			<li><a href="http://fontawesome.io/" target="_blank">Font Awesome Icons</a></li>
+			<li><a href="http://fitvidsjs.com/" target="_blank">FitVidsJS</a></li>
+			<li><a href="http://www.google.com/fonts/" target="_blank">Lato and Montserrat from Google Fonts</a></li>
+			<li>Demo Images From Dribbble: <a href="http://dribbble.com/shots/1133896-WIP-fitness-app-iOS-7" target="_blank">Cuberto</a>, <a href="http://dribbble.com/shots/1133305-Vintage" target="_blank">Mike | Creative Mints</a>, <a href="http://dribbble.com/shots/1223989-Icons" target="_blank">Mike | Creative Mints</a>, <a href="http://dribbble.com/shots/943079-Webapp-Dashboard" target="_blank">Ben Garratt</a>, <a href="http://dribbble.com/shots/824210-waffle-iphone-icon" target="_blank">Eddie Lobanovskiy</a>, <a href="http://dribbble.com/shots/1196168-Icon-set" target="_blank">Mike | Creative Mints</a>, <a href="http://dribbble.com/shots/970998-Icon-for-Interior-design-applicaion" target="_blank">Artua Design Agency</a>, <a href="http://dribbble.com/shots/1031448-Oreo-iOS-Icon" target="_blank">Román Jusdado</a>, <a href="http://dribbble.com/shots/1218369-Polaroid" target="_blank">MVBen</a>, <a href="http://dribbble.com/shots/1326829-HeatWatch-landing" target="_blank">Eddie Lobanovskiy</a>, <a href="http://dribbble.com/shots/1026624-Wireframing-for-our-game" target="_blank">Cuberto</a>, <a href="http://dribbble.com/shots/1293304-Singolo-Free-Single-Page-Website" target="_blank">Marijan Petrovski</a>.
+		</ul>
+
+		<p><strong>Demo images are not included in the download file.</strong></p>
+
+		<h2>Changelog</h2>
+
+		<strong>v1.0 (December 17, 2013)</strong>
+		<pre>- Initial Release</pre>
+
+		<strong>v1.1 (January 7, 2014)</strong>
+		<pre>- Bug Fix: Now you can embed more than one image in the post.</pre>
+
+	</div>
+	
+</body>
+</html>
