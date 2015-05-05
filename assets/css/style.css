@@ -54,7 +54,7 @@ input:focus { border: 1px solid #ccc; color: #555; }
 
 .button { display: inline-block; height: 40px; padding: 0 25px; font-size: 1.4rem; line-height: 4rem; text-transform: uppercase; text-align: center; border-radius: 5px; }
 .button.white { background: #fff; }
-.button.green { background: #a1d36e; color: #fff; }
+.button.green { background: #8AFDC2; color: #555; }
 /**/
 
 /* Fonts */
@@ -86,16 +86,17 @@ input:focus { border: 1px solid #ccc; color: #555; }
 /* Header */
 .ghost-featured .header { 
 	background-color: #313131;
-	background-image: -webkit-gradient(linear, left center, right center, from(rgb(49, 49, 49)), to(rgb(38, 38, 38)));
-	background-image: -webkit-linear-gradient(left, rgb(49, 49, 49), rgb(38, 38, 38));
-	background-image: -moz-linear-gradient(left, rgb(49, 49, 49), rgb(38, 38, 38));
-	background-image: -o-linear-gradient(left, rgb(49, 49, 49), rgb(38, 38, 38));
-	background-image: -ms-linear-gradient(left, rgb(49, 49, 49), rgb(38, 38, 38));
-	background-image: linear-gradient(left, rgb(49, 49, 49), rgb(38, 38, 38));
-	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,StartColorStr='#313131', EndColorStr='#262626');
+background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(49, 49, 49)), to(rgb(38, 38, 38)));
+background-image: -webkit-linear-gradient(top, rgb(49, 49, 49), rgb(38, 38, 38));
+background-image: -moz-linear-gradient(top, rgb(49, 49, 49), rgb(38, 38, 38));
+background-image: -o-linear-gradient(top, rgb(49, 49, 49), rgb(38, 38, 38));
+background-image: -ms-linear-gradient(top, rgb(49, 49, 49), rgb(38, 38, 38));
+background-image: linear-gradient(top, rgb(49, 49, 49), rgb(38, 38, 38));
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#313131', EndColorStr='#262626');
+
 	color: #fff; }
 
-	
+
 .ghost-featured .header > div { max-width: 900px; margin: 0 auto; padding: 70px 0; display: -webkit-flex; display: flex; }
 .ghost-featured .header h1 { font-weight: 700; font-size: 3rem; line-height: 3.2rem; font-family: Montserrat, sans-serif; margin: 0 0 20px; }
 .ghost-featured .header h1 + p { font-weight: 300; font-size: 1.8rem; line-height: 2.5rem; font-family: Lato, sans-serif; }
@@ -125,7 +126,7 @@ input:focus { border: 1px solid #ccc; color: #555; }
 .ghost-featured .content .index .post-content time { display: block; font-size: 1.2rem; color: #a4a5a5; margin: 0 0 8px; }
 .ghost-featured .content .index .post-content p { color: #82868c; font-size: 1.4rem; line-height: 1.8rem; margin: 0; }
 .ghost-featured .content .index .post-content > a { position: absolute; bottom: 20px; display: block; width: calc(100% - 40px); }
-.ghost-featured .content .index .post-content > a:hover { background: #93c65e; }
+.ghost-featured .content .index .post-content > a:hover { background: #5BDBC4; }
 /**/
 
 /* Post Single Template */
@@ -156,17 +157,17 @@ input:focus { border: 1px solid #ccc; color: #555; }
 /**/
 
 /* Hire */
-.ghost-featured .hire { height: 70px; color: #fff; background: #ee7358; }
+.ghost-featured .hire { height: 70px; color: #fff; background: #ddd; }
 .ghost-featured .hire > div { max-width: 900px; margin: 0 auto; display: -webkit-flex; display: flex; }
 .ghost-featured .hire p { overflow: hidden; white-space: nowrap; text-overflow: ellipsis; margin: 0 10px 0 0; font-size: 1.8rem; line-height: 7rem; flex: 9; -webkit-flex: 9; }
-.ghost-featured .hire a { min-width: 120px; flex: 1; -webkit-flex: 1; margin: 15px 0 0; font-weight: 900; color: #ee7358; }
-.ghost-featured .hire a:hover { background: #fef1ee; }
+.ghost-featured .hire a { min-width: 120px; flex: 1; -webkit-flex: 1; margin: 15px 0 0; font-weight: 900; color: #333; }
+.ghost-featured .hire a:hover { background: #fefefe; }
 /**/
 
 /* Footer */
-.ghost-featured .footer { padding: 70px 0; background: #434a54; font-family: Montserrat, sans-serif; font-size: 1.4rem; font-weight: 400; color: #f7f7f7; text-align: center; }
+.ghost-featured .footer { padding: 70px 0; background: #333; font-family: Montserrat, sans-serif; font-size: 1.4rem; font-weight: 400; color: #f7f7f7; text-align: center; }
 .ghost-featured .footer > a { display: inline-block; color: #606874; margin: 0 0 7px; padding: 2px 5px 0; font-size: 1.8rem; }
-.ghost-featured .footer > a:hover { background: #535b65; color: #fff; }
+.ghost-featured .footer > a:hover { background: #444; color: #fff; }
 .ghost-featured .footer p { margin: 0; }
 .ghost-featured .footer p a { color: #f7f7f7; }
 /**/
