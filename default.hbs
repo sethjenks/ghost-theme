@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<title>{{meta_title}}</title>
+		<meta name="description" content="{{meta_description}}" />
+
+		<meta name="HandheldFriendly" content="True" />
+		<meta name="MobileOptimized" content="320" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" type="text/css" href="/assets/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
+		<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:300,400,700,900|Montserrat:700" />
+
+		{{ghost_head}}
+	</head>
+
+	<body class="{{body_class}}">
+		<section class="ghost-featured">
+
+			<section class="header">
+				<div class="clearfix">
+					<div class="author-image">
+						<a href="{{@blog.url}}">
+						    {{#if @blog.logo}}
+						    	<img src="{{@blog.logo}}" alt="{{@blog.title}}" width="180" height="180" />
+						    {{/if}}
+					    </a>
+					</div>
+
+				    <div class="author-info">
+						<h1>Hello, I'm {{@blog.title}}!</h1>
+						{{#if @blog.description}}
+							<p>{{@blog.description}}</p>
+						{{/if}}
+
+						{{> social}}				
+					</div>
+				</div>
+			</section>
+
+			<main class="content" role="main">
+				{{{body}}}
+			</main>
+
+			{{> hireme}}
+
+			{{> footer}}
+		</section>
+		{{ghost_foot}}
+
+		<script src="/assets/js/jquery.fitvids.js"></script>
+		<script src="/assets/js/scripts.js"></script>
+	</body>
+</html>
