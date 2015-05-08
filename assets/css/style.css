@@ -114,7 +114,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr=
 
 /* Post Index + Archive Template */
 .ghost-featured .content .index .post { position: relative; float: left; width: 31%; min-width: 31%; height: 410px; margin-top: 7%; margin-left: 3%; background: #fff; box-shadow: 0 1px 1px rgba(0,0,0,.2); text-align: center; -webkit-transition: width 0.5s; transition: width 0.5s; }
-.ghost-featured .content .index .post-tags { position: absolute; top: 0; right: 0; z-index: 10; background: #55c1e7; color: #fff; padding: 3px 7px; font-size: 1rem; line-height: 1.3rem; font-family: Arial, Lato, sans-serif; text-transform: uppercase; text-align: right; }
+.ghost-featured .content .index .post-tags { position: absolute; top: 0; right: 0; z-index: 10; background: #fff; color: #333; padding: 3px 7px; font-size: 1rem; line-height: 1.3rem; font-family: Arial, Lato, sans-serif; text-transform: uppercase; text-align: right; }
 .ghost-featured .content .index .post-content { padding: 20px; }
 .ghost-featured .content .index .post > a:hover img { opacity: 0.9; }
 .ghost-featured .content .index .post > a { display: block; min-height: 200px; }
@@ -122,9 +122,9 @@ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr=
 .ghost-featured .content .index .post:nth-of-type(3n+1) { margin-left: 0; }
 .ghost-featured .content .index .post-content > h2:first-child { margin: 0; }
 .ghost-featured .content .index .post-content > h2 a { display: block; overflow: hidden; font-size: 2rem; font-weight: 400; line-height: 2.4rem; color: #505761; white-space: nowrap; text-overflow: ellipsis; }
-.ghost-featured .content .index .post-content > h2 a:hover { color: #797e86; }
-.ghost-featured .content .index .post-content time { display: block; font-size: 1.2rem; color: #a4a5a5; margin: 0 0 8px; }
-.ghost-featured .content .index .post-content p { color: #82868c; font-size: 1.4rem; line-height: 1.8rem; margin: 0; }
+.ghost-featured .content .index .post-content > h2 a:hover { color: #333; }
+.ghost-featured .content .index .post-content time { display: block; font-size: 1.2rem; color: #333; margin: 0 0 8px; }
+.ghost-featured .content .index .post-content p { color: #444; font-size: 1.4rem; line-height: 1.8rem; margin: 0; }
 .ghost-featured .content .index .post-content > a { position: absolute; bottom: 20px; display: block; width: calc(100% - 40px); }
 .ghost-featured .content .index .post-content > a:hover { background: #5BDBC4; }
 /**/
